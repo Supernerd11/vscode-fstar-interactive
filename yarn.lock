@@ -205,6 +205,13 @@ builtin-modules@^1.1.1:
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
   integrity sha1-Jw8HbFpywC9bZaR9+Uxf46J4iS8=
 
+callback-to-async-iterator@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/callback-to-async-iterator/-/callback-to-async-iterator-1.1.1.tgz#110adcde834589bee475415baf0123b6a541c398"
+  integrity sha512-w5uOapjkp/CEizuvBkLl7JyHlQNlxAT7LSr9g4vFjg5AEM5TJvaajjKkgs4kcFFm0fNqFX9D0zEIotllXvNC1Q==
+  dependencies:
+    iterall "^1.0.0"
+
 caseless@~0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
@@ -806,6 +813,11 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
+
+iterall@^1.0.0:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.2.2.tgz#92d70deb8028e0c39ff3164fdbf4d8b088130cd7"
+  integrity sha512-yynBb1g+RFUPY64fTrFv7nsjRrENBQJaX2UL+2Szc9REFrSNm1rpSXHGzhmAy7a9uv3vlvgBlXnf9RqmPH1/DA==
 
 js-tokens@^3.0.2:
   version "3.0.2"

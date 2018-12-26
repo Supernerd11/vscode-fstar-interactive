@@ -10,14 +10,24 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onLanguage:fstar"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [{
-			"command": "extension.helloWorld",
-			"title": "Hello World"
-		}]
+		"configuration": {
+			"title": "fstar",
+			"properties": {
+				"exePath": {
+					"type": "string"
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "extension.helloWorld",
+				"title": "Hello World"
+			}
+		]
 	},
 	"scripts": {
 		"vscode:prepublish": "yarn run compile",
@@ -25,6 +35,9 @@
 		"watch": "tsc -watch -p ./",
 		"postinstall": "node ./node_modules/vscode/bin/install",
 		"test": "yarn run compile && node ./node_modules/vscode/bin/test"
+	},
+	"dependencies": {
+		"callback-to-async-iterator": "^1.1.1"
 	},
 	"devDependencies": {
 		"typescript": "^3.1.4",
